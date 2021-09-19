@@ -13,7 +13,7 @@ void main()
     int arr[n] = { 3,5,8,13,21 };
     for (int i = 0; i < n; i++)
     {
-        cout << arr[i] << "\t";
+        cout << arr[n-i] << "\t";
     }
     cout << endl;
 }
